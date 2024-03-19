@@ -8,12 +8,17 @@ background-color: #F5F5DC;
 /* בורר , נותן אופציה לבחור כמה אלמנטים באותו סלקטור */
  h1,h2{
     color: #CB410B;
- }
+}
 
- /* בורר אלמנטים */
+/* בורר אלמנטים */
 button{
     font-size: 30px;
+    
+}
 
+span {
+    color: aliceblue;
+background-color: #AB274F;
 }
 
 /* בורר id #*/
@@ -22,10 +27,6 @@ button{
    color: aliceblue;
 }
 
-span {
-    color: aliceblue;
-background-color: #AB274F;
-}
 /* בורר Class . */
 .tag{
 background-color: #FE6F5E;
@@ -69,3 +70,29 @@ ul .done{
  a[href*="www.google.com"]{
     color: rgb(185, 68, 185);
  }
+ /* פסדאו דוגמאות  */
+/* סלקטור hover אומר שאני שם את העכבר מעל משהו הוא עושה פעולה דוגמא */
+button:hover{
+    background-color: red;
+    color: rgb(0, 255, 85);
+    text-decoration: purple underline ;
+}
+/* עוד דוגמא להפעיל את הבורר במקומות ספציפיים */
+/* .post button:hover {
+    background-color: red;
+    color: rgb(0, 255, 85);
+} */
+
+/* דוגמא נוספת לבורר תוצאות על ידי לחיצה */
+button:active{
+background-color: aquamarine;
+color: rgb(30, 0, 197);
+}
+
+.post button{
+    font-size: 15px;
+}
+
+.post {
+    background-color: #FFDEAD;
+}
