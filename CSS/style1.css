@@ -64,7 +64,7 @@ input[type="password"] {
 }
 
 ul .done{
-    background-color: #0fb9bed3;
+    background-color: #6f0fbed3;
     
 }
  a[href*="www.google.com"]{
@@ -92,7 +92,11 @@ color: rgb(30, 0, 197);
 .post button{
     font-size: 15px;
 }
-
-.post {
+/* בורר זה בוחר ממיין אחד מתוך 3 או כל מספר  */
+.post:nth-of-type(2){
+    background-color: #FFDEAD;
+}
+/* בורר זה בוחר כל מספר שתכתוב  */
+.post:nth-of-type(2n){
     background-color: #FFDEAD;
 }
