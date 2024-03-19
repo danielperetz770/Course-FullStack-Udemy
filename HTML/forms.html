@@ -1,0 +1,79 @@
+<!-- <p>שיעור מס52 HTML</p> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- <p>
+      In the next address we see appears an HTTP request created by me by a send button and in it appears all the details we enter, the details we contain are in the attributes we add such as for="username", id="username", type="text", placeholder="username" Everything has a role and the main feature that brings us the information we enter to the address is the name="username" feature, this is a feature that should be added to the forms we create and more
+      http://127.0.0.1:5500/forms.html?username=danielperetz620%40gmail.com&password=4312&date=2024-02-21&date=%23b94b4b
+    </p> -->
+     
+    <h1>Form Example</h1>
+    <button>Click me</button>
+
+    <form action="/forms.html">
+      <p>
+        <label for="username">Enter your username :</label>
+        <input id="username" type="text" placeholder="username" name="username" />
+      </p>
+      <p>
+          <label for="password">Enter a Password : </label>
+          <input type="password" placeholder="password" id="password" name="password">
+      </p>
+      <p>
+        <label for="date">Click your date :</label>
+        <input type="date" type="date" name="date">
+      </p>
+      <p>
+        <label for="color">change youre color :</label>
+        <input id="color" type="color" placeholder="color" name="date"/>
+      </p>
+      <button>submit</button>
+      <input type="submit" value="click here!" name="button"/>
+      <h2>Hijacing Serches</h2>
+      <h3>Serch factory54</h3>
+    
+    </form>
+   <form action="https://www.factory54.co.il/search">
+    <input type="text" name="q"/>
+    <button>search in factory54!</button>
+   </form>
+   <h3>Serch Google</h3>
+   <form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button>Search Google</button>
+   </form>
+   <h3>Serch Youtube</h3>
+   <form action="https://www.youtube.com/results">
+    <input type="text" name="search_query"/>
+    <button>Search Youtube</button>
+
+   </form>
+
+  <h2>More Inputs</h2>
+  <p>האלמנט cheked נותן אופציית בחירה מהתחלה ויש אפשרות לבטל</p>
+  <form action="true/false">
+    <input type="checkbox" name="questions" id="questions" checked>
+    <label for="questions">yes/no</label>
+
+
+  </form>
+  </body>
+</html>
+
+<!-- <input type="text" placeholder="text" />
+  <input type="password" placeholder="password"/>
+  <input type="color" placeholder="color"/>
+  <input type="checkbox" placeholder="checkbox"/>
+  <input type="search" placeholder="search"/>
+  <input type="date" placeholder="date"/>
+  <input type="radio" placeholder="radio"/>
+  <input type="email" placeholder="email"/>
+  <input type="image" placeholder="image"/>
+  <input type="tel" placeholder="your phone"/>
+  <input type="number" placeholder="number"/> -->

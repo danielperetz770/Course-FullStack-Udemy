@@ -1,0 +1,1 @@
+Span = לצורך הפרדת מילה או ממשפט לדוגמא <h4>Its Example <span>Im Span</span></h4>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Race Registraion</h1>
+    <form action="welcome.html">
+      <p>
+        <input
+          type="text"
+          required
+          id="username"
+          name="username"
+          placeholder="שם משתמש"
+        />
+        <label for="username">UserName</label>
+        <input
+          type="password"
+          required
+          id="password"
+          name="p"
+          placeholder="סיסמה"
+        />
+        <label for="username">Password</label>
+      </p>
+      <h4>Select a Race</h4>
+      <p>
+        <div>
+            <input type="radio" name="string" id="fun run 5k" value="fun run 5k">
+            <label for="fun run 5k">fun run 5k</label>
+        </div>
+        <div>
+            <input type="radio" name="string" id="half run" value="half run">
+            <label for="half run">half run</label> 
+        </div>
+        <div>
+            <input type="radio" name="string" id="full run" value="full run">
+            <label for="full run">full run</label>
+        </div>
+      </p>
+      <div>
+        <input type="email" requied placeholder="אימייל">
+        <label for="email">email</label>
+        <input type="password" requied placeholder="סיסמה">
+        <label for="password">password</label>
+      </div>
+      <p>
+        <label for="select">Select Age Group :</label>
+        <select name="select age" id="select">
+            <option>choose a age</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="23">23</option>
+        </select> <br>
+       <button>Register</button>
+    
+      </p>
+    </form>
+  </body>
+</html>

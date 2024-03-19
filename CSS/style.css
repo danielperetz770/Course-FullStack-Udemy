@@ -1,0 +1,47 @@
+h1{
+    color: teal;
+    background-color: plum;
+    text-align: center;
+    text-decoration:#77ff underline wavy;
+    font-size: 30px;
+    /*פונט פמילי הם הברירת מחדל לכל הדפדפנים
+    ברגע שאני עושה פסיק וכותב עוד סוגים של פונטים
+    זה אומר שאם אתה לא מוצא את הפונט וורדנה 
+    תביא לי את פונט גנווה
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* מרווח בין אותיות */
+    letter-spacing: 35px;
+    font-weight: normal;
+    /* more options
+    font-weight: 700;  
+    font-weight: 100;
+    font-weight: 400;
+    and more
+    */
+}
+
+h2{
+letter-spacing:13px;
+text-decoration:#77ff line-through;
+
+}
+
+a{
+    text-decoration: none;
+    /* ביטלתי את הקו מתחת ללינק  */
+}
+
+p{
+color: rgb(0, 128, 43);
+background-color: rgb(19, 7, 16);
+font-weight: 400;
+/* מרווחים בין שורה לשורה */
+line-height: 2;
+}
+
+button{
+    color: magenta;
+    background-color: yellowgreen;
+    border: 2px solid red;
+}

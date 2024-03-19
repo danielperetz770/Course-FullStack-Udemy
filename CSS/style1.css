@@ -1,0 +1,71 @@
+/* סוגי בוררים  */
+
+/* בורר * בוחר את כל האלמנטים */
+* {
+background-color: #F5F5DC;
+}
+
+/* בורר , נותן אופציה לבחור כמה אלמנטים באותו סלקטור */
+ h1,h2{
+    color: #CB410B;
+ }
+
+ /* בורר אלמנטים */
+button{
+    font-size: 30px;
+
+}
+
+/* בורר id #*/
+#signup{
+   background-color:#002147;
+   color: aliceblue;
+}
+
+span {
+    color: aliceblue;
+background-color: #AB274F;
+}
+/* בורר Class . */
+.tag{
+background-color: #FE6F5E;
+}
+
+li{
+    color: blue;
+}
+.done{
+    color: grey;
+}
+
+#clear{
+    color: white;
+    background-color: red;
+}
+/* בורר רווח - ניתן לבצע שינוניים בתוך אלמנטים פנימיים  */
+header a{
+    color:  teal;
+    font-size: 30px;
+}
+
+#dislikes  a {
+color: red;
+}
+ /* בורר + מחליט לשלוט על האלמנט שמעליו  */
+input + button {
+    background-color: pink;
+}
+
+/* בורר [] בוחר לשנות תכונות ספצפיות בתוך אלמנטים דוגמא */
+
+input[type="password"] {
+    color: rgb(0, 248, 12);
+}
+
+ul .done{
+    background-color: #0fb9bed3;
+    
+}
+ a[href*="www.google.com"]{
+    color: rgb(185, 68, 185);
+ }

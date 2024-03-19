@@ -1,0 +1,2 @@
+https://developer.mozilla.org/en-US/ קישור לדוגמאות של אלמנטים 
+https://coolors.co/ -פלטות צבעים CSS 
