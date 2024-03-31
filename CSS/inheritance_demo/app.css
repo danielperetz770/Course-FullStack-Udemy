@@ -1,0 +1,16 @@
+/* ירושה */
+body{
+    color: purple;
+}
+
+/* אם לא הייתי בוחר לכותרת צבע הוא היה מקבל את הצבע של הבאדי */
+h1 {
+    color: blue;
+}
+section{
+    color: aqua;
+}
+/* אינהרט אומר שהכפתור יירש את הצבע שמעליו */
+button,input{
+color:inherit;
+}

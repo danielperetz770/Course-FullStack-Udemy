@@ -76,6 +76,7 @@ button:hover{
     background-color: red;
     color: rgb(0, 255, 85);
     text-decoration: purple underline ;
+   
 }
 /* עוד דוגמא להפעיל את הבורר במקומות ספציפיים */
 /* .post button:hover {
@@ -91,6 +92,7 @@ color: rgb(30, 0, 197);
 
 .post button{
     font-size: 15px;
+    background-color: #3c4700;  
 }
 /* בורר זה בוחר ממיין אחד מתוך 3 או כל מספר  */
 .post:nth-of-type(2){
@@ -100,3 +102,25 @@ color: rgb(30, 0, 197);
 .post:nth-of-type(2n){
     background-color: #FFDEAD;
 }
+/* בורר זה מחליט על האות הראשונה */
+h2::first-letter{
+    font-size: 50px;
+}
+/*בורר זה מגדיש את הטקסט בצבע לאחר סימון בפסקאות  */
+p::selection{
+   background-color: #27ab4f;
+}
+
+/* בורר זה מדגיש את כל המסך לאחר סימון */
+::selection{
+    background-color: #AB274F;
+ }
+
+ /*נושא הספציפיות */
+ /* תמיד אי די יהיה ראשון אחר כך קלאס ואחרי זה אלמנט */
+
+
+ /* אימפורטאנט אומר לא משנה מה זה הכי חשוב לי תעקוף את כל הסגנונות ותשים אותי */
+/* button{
+    background-color: #27ab4f !important;
+} */
