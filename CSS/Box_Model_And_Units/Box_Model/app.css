@@ -1,0 +1,65 @@
+body{
+    /* מרגין זה מרווח חיצוני */
+    margin: 0;
+    /* פדינג זה מרווח פנימי */
+    padding: 10px;
+}
+
+div{
+    /* רוחב */
+    width: 200px;
+    /* אורך */
+    height: 200px;
+    background-color: #FF8299;
+}
+h1{
+    background-color: #792C38;
+    /* משפיע על אורך הצבע בכותרת */
+    width: 100px;
+}
+
+#one{
+background-color:#782B4B ;
+/* צבע מסגרת */
+border-color: black;
+border-width: 5px;
+border-style: solid;
+box-sizing: border-box;
+/* margin top: 10px; */
+}
+
+#two{
+   background-color:#782B5E ;
+   border-color: rgb(0, 0, 0); 
+   border-width: 3px;
+   border-style: dashed;
+   box-sizing: border-box;
+   border-left-width: 8px;
+}
+
+#three{
+    background-color:#782B69 ;
+    border:5px solid black;
+    border-left-style:dotted ;
+    /* עיגול פינות */
+    border-radius: 10px;
+}
+
+.card {
+    width: 210px;
+    height: 210px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+
+}
+
+.card img {
+    width: 200px;
+    border: 5px solid rgb(236, 183, 191);
+    border-radius: 50%;     
+  }
+
+  button{
+    padding:10px; 
+  }
