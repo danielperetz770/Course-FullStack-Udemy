@@ -1,222 +1,237 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 h1 {
-    text-align: center;
-    font-size: 4em;
+  text-align: center;
+  font-size: 4em;
 }
 #container {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
-    /* display flex אומר לתצוגה להתגמש על האלמנט הזה */
-    display: flex;
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  /* display flex אומר לתצוגה להתגמש על האלמנט הזה */
+  display: flex;
 
-    /* flex derection מאפשרת לגמישות הכיוון הציר הראשי באלמנט */
-    /* בדוגמא הזאת כיוונתי אותו הפוך בשורה */
-    /* flex-direction: row-reverse; */
+  /* flex derection מאפשרת לגמישות הכיוון הציר הראשי באלמנט */
+  /* בדוגמא הזאת כיוונתי אותו הפוך בשורה */
+  /* flex-direction: row-reverse; */
 
-    /* בדוגמא הזאת כיוונתי אותו הפוך בטור ולא בשורה */
-    flex-direction: column;
+  /* בדוגמא הזאת כיוונתי אותו הפוך בטור ולא בשורה */
+  flex-direction: column;
 }
-#container div{
-    width: 200px;
-    height: 200px;
+#container div {
+  width: 200px;
+  height: 200px;
 }
 
 /* conteiner 1 */
 #container1 {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
-    display: flex;
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
 
-        /* justify-content אומר להצדיק תוכן */
-    /* להתחיל מהסוף להתחלה */
-    justify-content: end;
+  /* justify-content אומר להצדיק תוכן */
+  /* להתחיל מהסוף להתחלה */
+  justify-content: end;
 
-    /* לרכז את התוכן למרכז */
-    /* justify-content: center; */
+  /* לרכז את התוכן למרכז */
+  /* justify-content: center; */
 
-    /* רווח בניהם */
-    justify-content: space-between;
+  /* רווח בניהם */
+  justify-content: space-between;
 
-    /* רווח מסביב */
-    /* justify-content: space-around; */
+  /* רווח מסביב */
+  /* justify-content: space-around; */
 
-    /* space-evenly אומר שמירת מרווח שווה */
-    /* justify-content: space-evenly; */
+  /* space-evenly אומר שמירת מרווח שווה */
+  /* justify-content: space-evenly; */
 }
 
-#container1 div{
-    width: 200px;
-    height: 200px;
+#container1 div {
+  width: 200px;
+  height: 200px;
 }
-
 
 /* conteiner 2 */
 #container2 {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
-    display: flex;
-    /* flex wrap אומר כיסוי גמיש */
- 
-    /* flex-wrap: wrap; */
-    flex-wrap: wrap-reverse;
-    /* lex-wrap: nowrap;f */
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* flex wrap אומר כיסוי גמיש */
 
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap-reverse;
+  /* lex-wrap: nowrap;f */
 }
 
-#container2 div{
-    width: 600px;
-    height: 200px;
+#container2 div {
+  width: 600px;
+  height: 200px;
 }
-
 
 /* conteiner 3 */
 #container3 {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
-    display: flex;
-    justify-content: center;
-    /* יביא את הפריטים מהסוף למטה כי הגדרתי מרכז וההתחלה היא למעלה*/
-    /* align-items: flex-end; */
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  justify-content: center;
+  /* יביא את הפריטים מהסוף למטה כי הגדרתי מרכז וההתחלה היא למעלה*/
+  /* align-items: flex-end; */
 
-    /* ישים את כל הפריטים מרכז אמצעי */
-    align-items: center;
+  /* ישים את כל הפריטים מרכז אמצעי */
+  align-items: center;
 
-    /*יסדר את כל הטקסט בקו בסיסי מתי שאלמנטים בגבהים שונים ורוצים טקסט בקו אחד*/
-    align-items: baseline;
-
+  /*יסדר את כל הטקסט בקו בסיסי מתי שאלמנטים בגבהים שונים ורוצים טקסט בקו אחד*/
+  align-items: baseline;
 }
-#container3 div{
-    width: 200px;
-    height: 200px;
-    font-size: 4em;
-    text-align: center;
+#container3 div {
+  width: 200px;
+  height: 200px;
+  font-size: 4em;
+  text-align: center;
 }
 
 /* conteiner 4 */
 #container4 {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
-    /* display flex אומר לתצוגה להתגמש על האלמנט הזה */
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    align-items:flex-end ;
-    align-items:start ;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-wrap: wrap-reverse;
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  /* display flex אומר לתצוגה להתגמש על האלמנט הזה */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
-
-#container4 div{
-    width: 200px;
-    height: 200px;
+#container4 div {
+  width: 200px;
+  height: 200px;
 }
 
 /* conteiner 5 */
 #container5 {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-
-#container5 div{
-    width: 200px;
-    height: 200px;
-    text-align: center;
+#container5 div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
 }
 /* nth of type אומר אלמנט מספר 3 */
 /* ככה ניתן למקם אלמנט אחד מתוך קונטיינר */
 div:nth-of-type(2) {
-align-self: center;
+  align-self: center;
 }
 div:nth-of-type(3) {
-    align-self: flex-end;
-    }
-
-    /* conteiner 6 */
-#container6 {
-    background-color: #003049;
-    width: 90%;
-    /* height: 500px; */
-    margin: 0 auto;
-    border: 5px solid #003049;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+  align-self: flex-end;
 }
 
+/* conteiner 6 */
+#container6 {
+  background-color: #003049;
+  width: 90%;
+  /* height: 500px; */
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-#container6 div{
-    width: 200px;
-    height: 200px;
-    /* כל דיב לא יגדל מעל 300 פיקסל */
-    /* max-width: 300px; */
-    text-align: center;
-    flex-basis: 400px;
-    /* flex-grow:1; */
+#container6 div {
+  width: 200px;
+  height: 200px;
+  /* כל דיב לא יגדל מעל 300 פיקסל */
+  /* max-width: 300px; */
+  text-align: center;
+  flex-basis: 400px;
+  /* flex-grow:1; */
 }
 
 /* flex-grow אוכל את כל השטח הפנוי */
-div:nth-of-type(1){
-    flex-grow: 1;
+div:nth-of-type(1) {
+  flex-grow: 1;
 }
 /* הגדרתי שדיב מספר 5 יאכל פי 2 מהשטח מאשר דיב מספר 1 */
-div:nth-of-type(5){
-    flex-grow: 2;
+div:nth-of-type(5) {
+  flex-grow: 2;
 }
 
-    /* conteiner 7 */
-    #container7 {
-        background-color: #003049;
-        width: 90%;
-    
-        margin: 0 auto;
-        border: 5px solid #003049;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    #container7 div{
-        width: 200px;
-        height: 200px;
-        /* כל דיב לא יגדל מעל 300 פיקסל */
-        /* max-width: 300px; */
-        text-align: center;
-        flex-basis: 200px;
-        /* flex-grow:1; */
-    }
-    div:nth-of-type(1){
-        flex-grow: 1;
-    }
-   
-    div:nth-of-type(5){
-        flex-grow: 2;
-    }
+/* conteiner 7 */
+#container7 {
+  background-color: #003049;
+  width: 90%;
+
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#container7 div {
+  width: 200px;
+  height: 200px;
+  /* max-width: 300px; */
+  text-align: center;
+  flex-basis: 200px;
+}
+div:nth-of-type(1) {
+  flex-grow: 1;
+  /* flrex-shrink קובע את קצב הצטמקות ביחס לשאר האלמנטים */
+  flex-shrink: 2;
+}
+
+div:nth-of-type(5) {
+  flex-grow: 2;
+  /* אלמנט מספר 5 לא יתכווץ בכלל */
+  flex-shrink: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 4em;
+}
+main{
+width: 80%;
+margin: 0 auto;
+border: 5px solid black;
+height: 500px;
+display: flex;
+}
+main .sidebar {
+    background-color: #6930c3 ;
+    border: 2px solid white;
+    flex:1 2 300px;
+}
+main .maincontent{
+    background-color: #80ffdb ;
+    flex: 2 1 800px;
+}
