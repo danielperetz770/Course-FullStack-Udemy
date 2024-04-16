@@ -18,14 +18,16 @@ ul,li {
     margin: 0;
     padding: 0;
 }
+ 
 ul {
+    border: 1px solid red;
     flex: 1;
     max-width: 50%;
     display: flex;
     justify-content: space-evenly;
 }
 
-
+/* בדוגמא הזאת שהכותרת במקסימום 800 פיקסל היא תהפוך לסגול ומתחת ל600 פיקסל היא תחזור לצבע השחור כי זה המינימום */
 /* @media (min-width: 600px) and (max-width: 800px){
     h1 {
         color: purple;
@@ -55,17 +57,19 @@ ul {
 h1 {
     color: red;
 }
-
+/* עד 500 פיקסל הכותרת תהיה בצבע כתום */
 @media (min-width: 500px){
     h1 {
         color: orange;
     }
 }
+/* שהוא מגיע ל1000 פיקסל הוא מקבל צבע צהוב */
 @media (min-width: 1000px){
     h1 {
         color: yellow;
     }
 }
+/* שהוא מגיע ל1500 פיקסל הוא משנה לצבע ירוק */
 @media (min-width: 1500px){
     h1 {
         color: green;
@@ -78,17 +82,20 @@ h1 {
  }
 } */
 
-
+/* ברגע שהוא מגיע ל768 פיקסל גודל הגופן משתנה ל4 אמ כדי שלא תהיה ערמה בכותרת שמקטינים מסך*/
 @media (max-width: 768px){
     h1 {
         font-size: 4em;
     }
+    /* אלמנט יו אל באלמנט נאב יהיה שורה מרכזית */
     nav, nav ul {
         flex-direction: column;
         align-items: center;
     }
   
 }
+ /* הכותרת תהיה 3 אמ עד 576 פיקסל כדי שלא תהיה ערמה והכותרת תקטן* / */
+
 @media (max-width: 576px){
     h1 {
         font-size: 3em;
